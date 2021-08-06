@@ -1,5 +1,5 @@
 # cards-game
-A card game App. Built with Javascript (promise, fetch, async/await) to draw cards for APIs
+A card game App. Built with Javascript (promise, fetch, async/await) to draw cards from APIs
 
 To play the game, just click the link of page in description section of repo
 Feel free to fork, download source code
