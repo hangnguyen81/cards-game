@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>War card game</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Georama:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div id="game-header">
+                <button id ="tbn-new-deck" class="btn">New Deck</button>
+                <p id="remaining-cards"> </p>
+            </div>
+            <h1 id="message"> Game of War </h1>
+            <h2 id=computer>Computer: 0</h2>        
+            <div id="cards-display">
+                <div id=first-card class="card-slot"></div>
+                <div id=second-card class="card-slot"></div>
+            </div>    
+            <h2 id=player>Your score: 0</h2>    
+            <button id=tbn-draw-cards class="btn btn-dark" >Draw cards</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

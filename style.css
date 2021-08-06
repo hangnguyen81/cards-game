@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-image: url('images/moroccan-flower-dark.png');
+    font-size: 1.125rem;
+    font-family: 'Georama', sans-serif;
+    color: whitesmoke;
+}
+
+#container{
+    max-width: 800px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#game-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#cards-display{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 200px;
+}
+
+h1,
+h2,
+h3{
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 0;
+}
+
+h1{
+    text-transform: uppercase;
+    margin: 0;
+}
+.card-slot{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 226px;
+    height: calc(226px * 7 / 5);
+}
+
+.btn{
+    width: fit-content;
+    padding: .5em 1em;
+    margin-bottom: 1em;
+    background-color: chocolate;
+    color: whitesmoke;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn.focus{
+    background-color: tomato;
+}
+
+.btn-dark{
+    font-weight: bold;
+}
+
+.disabled{
+    background-color: gray;
+    cursor: not-allowed
+}
